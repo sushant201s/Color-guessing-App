@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Color Guessing Game</title>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<h3>GUESS THE COLOR</h3>
+			<h1 id="rgbToGuess">RGB(175, 203, 2)</h1>
+		</div>
+		<div class="gamebar">
+			<button id="newGame" class="btn btn-success">New Game</button>
+			<button id="easy" class="btn btn-primary">Easy</button>
+			<button id="hard" class="btn btn-primary">Hard</button>
+
+		</div>
+		<table>
+			<tr>
+				<td id="1"></td>
+				<td id="2"></td>
+				<td id="3"></td>
+			</tr>
+			<tr id="displayHardMode">
+				<td id="4"></td>
+				<td id="5"></td>
+				<td id="6"></td>
+			</tr>
+		</table>
+		<span id="result"></span>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
+	<script src="script.js"></script>
+</body>
+
+</html>
